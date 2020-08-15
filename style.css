@@ -207,4 +207,18 @@ body {
         height: 300px;
         width: 300px;
     }
+    .card {
+        width:250px !important;
+        margin: 10px;
+    }
+    .projects {
+        margin-bottom: 750px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-heading img {
+        height: 350px;
+        width: 350px;
+    }
 }
