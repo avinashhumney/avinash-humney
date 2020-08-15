@@ -183,8 +183,8 @@ body {
         font-size :45px;
     }
     .image img{
-        height: 300px;
-        width: 300px;
+        height: 320px;
+        width: 320px;
     }
     .about {
         flex-direction: column;
@@ -193,5 +193,18 @@ body {
         margin-top: 150px;
         height: 320px;
         width: 320px;
+    }
+
+    .skills {
+        flex-direction: column;
+        margin-top: 250px;
+        width: 300px;
+    }
+    .skills-progress {
+        width: 300px;
+    }
+    .skill-image {
+        height: 300px;
+        width: 300px;
     }
 }
