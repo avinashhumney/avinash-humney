@@ -1,0 +1,190 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebe5f5;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: #eee;
+}
+
+ .navbar-nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a0dad !important;
+}
+
+.navbar-collapse {
+    text-align: right !important;
+} 
+
+.hero {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    color: #333;
+}
+
+.des h4 {
+    font-size: 25px;
+    color: #333;
+}
+
+.hero-back {
+    background: #eee;
+}
+.social {
+    position: fixed;
+    top: 65%;
+    left: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social .fa-github {
+    color: black;
+}
+.social .fa-instagram {
+    color: #f2003c;
+}
+
+.social .fa-linkedin {
+    color: #0e76a8;
+}
+
+.vertical {
+    height: 150px;
+    width: 2px;
+    background: #6a0dad;
+    margin-left: 20px;
+    margin-bottom:5px;
+}
+
+.resume {
+    background: #6a0dad !important;
+    color: #fff !important;
+    border-radius: 25px;
+}
+.resume:hover {
+    background: #fff !important;
+    color: #6a0dad !important;
+    text-decoration: none !important;
+    border: 1px solid #6a0dad;
+}
+
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bullet {
+    height: 10px;
+    width: 10px;
+    background: #6a0dad;
+    border-radius: 50%;
+}
+
+.about h1{
+    border-left: 3px #6a0dad solid;
+}
+
+.about-des p {
+    font-size: 23px;
+}
+
+/* Skills */
+.skills {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills h1{
+    border-left: 3px #6a0dad solid;
+}
+.skills-progress {
+    width: 100%;
+}
+
+.progress-des {
+    display: flex;
+    justify-content:space-between;
+}
+
+.progress-des p {
+    color: #444;
+}
+
+/* Projects */
+
+.projects {
+    height: 100vh;
+}
+
+.project-heading h1 {
+    border-left: 3px #6a0dad solid;
+}
+
+.project-full {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contacts */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+
+.contact-card {
+    flex-direction: column;
+}
+
+.contact-heading {
+    margin: auto;
+}
+
+.contact-header {
+    border-left: 3px #6a0dad solid;
+}
+
+@media(max-width:500px) {
+    .hero {
+        flex-direction: column;
+        height: 450px;
+        display: flex;
+    }
+    .hero .myself {
+        margin-top: 120px;
+    }
+    .hero a {
+        padding: 20px;
+    }
+    .resume {
+        padding-bottom: 5px;
+    }
+    .hero h2 {
+        font-size :35px;
+    }
+    .image img{
+        height: 300px;
+        width: 300px;
+    }
+}
