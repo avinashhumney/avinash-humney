@@ -73,8 +73,9 @@ body {
 .resume {
     background: #6a0dad !important;
     color: #fff !important;
-    border-radius: 25px;
+    border-radius: 30px;
 }
+
 .resume:hover {
     background: #fff !important;
     color: #6a0dad !important;
@@ -83,6 +84,12 @@ body {
 }
 
 /* About */
+.bullet {
+    height: 10px;
+    width: 10px;
+    background: #6a0dad;
+    border-radius:50%
+}
 .about {
     display: flex;
     align-items: center;
