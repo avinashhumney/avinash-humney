@@ -199,9 +199,6 @@ body {
         flex-direction: column;
         margin-top: 250px;
     }
-    .skills-progress {
-        width: 300px;
-    }
     .skill-image {
         height: 300px;
         width: 300px;
