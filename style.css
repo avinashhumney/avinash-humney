@@ -212,6 +212,7 @@ body {
     }
     .contact {
         flex-direction: column;
+        height: 1000px;
     }
     .contact-heading img {
         height: 350px;
