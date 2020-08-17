@@ -221,7 +221,7 @@ body {
 
 }
 
-@media (min-width:501px) and (max-width:700px) {
+@media (min-width:501px) and (max-width:1024px) {
     .hero {
         margin-top: 120px;
     }
@@ -246,6 +246,9 @@ body {
     }
     .card {
         margin-bottom: 20px;
+    }
+    .row {
+        flex-direction:column;
     }
     .contact {
         margin-top: 200px;
