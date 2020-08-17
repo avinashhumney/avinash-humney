@@ -197,8 +197,8 @@ body {
 
     .skills {
         flex-direction: column;
-        margin-top: 100px;
-        height:750px ;
+        margin-top: 250px;
+        height:500px ;
     }
       .skill-image {
         height: 300px;
@@ -221,22 +221,34 @@ body {
 
 }
 
-@media (min-width:501px) and (max-width:1024px) {
+@media (min-width:501px) and (max-width:700px) {
+    .hero {
+        margin-top: 120px;
+    }
     .about {
         flex-direction: column;
     }
-    .row {
-        flex-direction: column;
-        padding: 100px;
-    }
-    .card {
-        margin-bottom :20px;
-    }
-    .projects {
-        margin-bottom: 200px;
+    .about img {
+        margin-left: 200px;
+        height: 700px;
+        width: 700px;
+        text-align: center;
     }
     .skills {
         flex-direction: column;
-        margin-bottom: 5px;
+        margin-top:400px;
+        margin-bottom: 50px;
+        height: 700px;
+    }
+    .projects {
+        margin-top:500px;
+        height: 90rem;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .contact {
+        margin-top: 200px;
+        margin-right:50px;
     }
 }
