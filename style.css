@@ -218,4 +218,25 @@ body {
         height: 350px;
         width: 350px;
     }
+
+}
+
+@media(max-width:1024px) {
+    .about {
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+        padding: 100px;
+    }
+    .card {
+        margin-bottom :20px;
+    }
+    .projects {
+        margin-bottom: 200px;
+    }
+    .skills {
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
 }
